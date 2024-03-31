@@ -1,0 +1,43 @@
+"use client"
+import { useEffect } from 'react';
+
+const YouCanBookMeWidget = () => {
+  useEffect(() => {
+    // Add an event listener for the "message" event
+    const handleMessage = (event) => {
+      if (event.origin === "https://scalifycommerce.youcanbook.me") {
+        const iframe = document.getElementById("ycbm");
+        if (iframe) {
+          iframe.style.height = event.data + "px";
+        }
+      }
+    };
+
+    window.addEventListener("message", handleMessage, false);
+
+    // Cleanup: Remove the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("message", handleMessage, false);
+    };
+  }, []);
+
+  return (
+    <iframe
+      src="https://scalifycommerce.youcanbook.me/?embed=true"
+      id="ycbm"
+      style={{
+        margin:'auto',
+        marginTop:'10px',
+        width: '70%',
+        height: '900px',
+        border: '0px',
+        backgroundColor: 'transparent'
+      }}
+      frameborder="0"
+      allowtransparency="true"
+      title="YouCanBookMe Widget"
+    />
+  );
+};
+
+export default YouCanBookMeWidget;
