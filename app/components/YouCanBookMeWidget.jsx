@@ -5,7 +5,7 @@ const YouCanBookMeWidget = () => {
   useEffect(() => {
     // Add an event listener for the "message" event
     const handleMessage = (event) => {
-      if (event.origin === "https://scalifycommerce.youcanbook.me") {
+      if (event.origin === "https://scalifycommerce-call.youcanbook.me") {
         const iframe = document.getElementById("ycbm");
         if (iframe) {
           iframe.style.height = event.data + "px";
@@ -23,7 +23,7 @@ const YouCanBookMeWidget = () => {
 
   return (
     <iframe
-      src="https://scalifycommerce.youcanbook.me/?embed=true"
+      src="https://scalifycommerce-call.youcanbook.me/?embed=true"
       id="ycbm"
       style={{
         margin:'auto',
