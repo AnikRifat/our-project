@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "ScalifyCommerce",
+  title: "Scalify Commerce",
   description: "Ecommerce Brand Expert!",
 };
 
