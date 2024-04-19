@@ -126,11 +126,19 @@ if (secondsAgo < minute) {
 console.log(formattedDate);
 
   return (
+<<<<<<< HEAD
     <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
       <div className="md:flex md:justify-between px-4 mx-auto max-w-screen-xl">
         <article className="mx-auto w-full max-w-2xl overflow-y-auto format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
           <header className="mb-4 lg:mb-6 not-format">
             <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+=======
+    <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white antialiased">
+      <div className="md:flex md:justify-between px-4 mx-auto max-w-screen-xl">
+        <article className="mx-auto w-full max-w-2xl overflow-y-auto format format-sm sm:format-base lg:format-lg format-blue">
+          <header className="mb-4 lg:mb-6 not-format">
+            <div className="inline-flex items-center mr-3 text-sm text-gray-900">
+>>>>>>> origin/main
               <Image
                 src={"https:" + blog.fields.authorImage.fields.file.url}
                 className="mr-4 w-16 h-16 rounded-full"
@@ -140,6 +148,7 @@ console.log(formattedDate);
               />
               <div>
                 <div
+<<<<<<< HEAD
                   className="text-xl font-bold text-gray-900 dark:text-white"
                 >
                   {blog.fields.authorName}
@@ -148,6 +157,16 @@ console.log(formattedDate);
                   {blog.fields.authorDesignation}
                 </div>
                 <div className="text-base text-gray-500 dark:text-gray-400">
+=======
+                  className="text-xl font-bold text-gray-900"
+                >
+                  {blog.fields.authorName}
+                </div>
+                <div className="text-base text-gray-500">
+                  {blog.fields.authorDesignation}
+                </div>
+                <div className="text-base text-gray-500">
+>>>>>>> origin/main
                   <time
                     pubdate=""
                     dateTime="2022-02-08"
@@ -159,7 +178,11 @@ console.log(formattedDate);
               </div>
             </div>
 
+<<<<<<< HEAD
             <h1 className="my-4 text-3xl font-extrabold leading-tight text-gray-900 lg:my-6 lg:text-4xl dark:text-white">
+=======
+            <h1 className="my-4 text-3xl font-extrabold leading-tight text-gray-900 lg:my-6 lg:text-4xl">
+>>>>>>> origin/main
               {blog.fields.blogTitle}
             </h1>
           </header>
@@ -302,10 +325,17 @@ console.log(formattedDate);
         </article>
         <aside
           aria-label="Related articles"
+<<<<<<< HEAD
           className="py-8 lg:py-24 dark:bg-gray-800"
         >
           <div className="px-4 mx-auto max-w-screen-xl">
             <h2 className="mb-8 text-2xl font-bold text-gray-900 dark:text-white">
+=======
+          className="py-8 lg:py-24"
+        >
+          <div className="px-4 mx-auto max-w-screen-xl">
+            <h2 className="mb-8 text-2xl font-bold text-gray-900">
+>>>>>>> origin/main
               Related articles
             </h2>
             {categoryItems.length === 0 ? (

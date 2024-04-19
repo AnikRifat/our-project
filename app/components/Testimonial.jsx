@@ -63,7 +63,11 @@ const Testimonial = () => { return (
       width={36}
       height={36}
       className="w-9 h-9 rounded-full"
+<<<<<<< HEAD
       alt="Travis M"
+=======
+      alt="jamil w"
+>>>>>>> origin/main
     />
               <div className="space-y-0.5 font-medium">
                 <div>Josiah Tersieff</div>
@@ -90,7 +94,11 @@ const Testimonial = () => { return (
       width={36}
       height={36}
       className="w-9 h-9 rounded-full"
+<<<<<<< HEAD
       alt="Travis M"
+=======
+      alt="Jake Prusher"
+>>>>>>> origin/main
     />
               <div className="space-y-0.5 font-medium text-left">
                 <div>Jake Prusher</div>
@@ -101,6 +109,7 @@ const Testimonial = () => { return (
             </figcaption>
           </figure>
         </div>
+<<<<<<< HEAD
         <div className="text-center mt-6">
           <a
             href="#"
@@ -109,6 +118,8 @@ const Testimonial = () => { return (
             Show more...
           </a>
         </div>
+=======
+>>>>>>> origin/main
       </div>
     </section>
     ); }; export default Testimonial;

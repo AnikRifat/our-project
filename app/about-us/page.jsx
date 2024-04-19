@@ -13,16 +13,27 @@ const page = () => { return (
       >
         <div className="text-left mt-4 md:mt-0">
           <h2
+<<<<<<< HEAD
             className="mb-4 text-6xl tracking-tight font-extrabold text-gray-900 dark:text-white"
           >We’re changing the way people connect.</h2>
           <p
             className="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400"
+=======
+            className="mb-4 text-6xl tracking-tight font-extrabold text-gray-900"
+          >We’re changing the way people connect.</h2>
+          <p
+            className="mb-6 font-light text-gray-500 md:text-lg"
+>>>>>>> origin/main
           >Flowbite helps you connect with friends and communities of people who
             share your interests. Connecting with your friends and family as well as
             discovering new ones is easy with features like Groups.</p>
           <a
             href="#"
+<<<<<<< HEAD
             className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900"
+=======
+            className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+>>>>>>> origin/main
           >
             Get started
             <svg
@@ -50,24 +61,40 @@ const page = () => { return (
         className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6"
       >
         <dl
+<<<<<<< HEAD
           className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white"
+=======
+          className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3"
+>>>>>>> origin/main
         >
           <div className="flex flex-col items-center justify-center">
             <dt className="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>
             <dd
+<<<<<<< HEAD
               className="font-light text-gray-500 dark:text-gray-400"
+=======
+              className="font-light text-gray-500"
+>>>>>>> origin/main
             >developers</dd>
           </div>
           <div className="flex flex-col items-center justify-center">
             <dt className="mb-2 text-3xl md:text-4xl font-extrabold">1B+</dt>
             <dd
+<<<<<<< HEAD
               className="font-light text-gray-500 dark:text-gray-400"
+=======
+              className="font-light text-gray-500"
+>>>>>>> origin/main
             >contributors</dd>
           </div>
           <div className="flex flex-col items-center justify-center">
             <dt className="mb-2 text-3xl md:text-4xl font-extrabold">4M+</dt>
             <dd
+<<<<<<< HEAD
               className="font-light text-gray-500 dark:text-gray-400"
+=======
+              className="font-light text-gray-500"
+>>>>>>> origin/main
             >organizations</dd>
           </div>
         </dl>

@@ -1,5 +1,9 @@
 "use client"
 import { createClient } from 'contentful';
+<<<<<<< HEAD
+=======
+import Link from "next/link";
+>>>>>>> origin/main
 import { useEffect, useState } from 'react';
 import BlogCard from '../components/BlogCard';
 
@@ -55,5 +59,16 @@ const Blog = () => {
             <p>Loading...</p>
         )}
     </div>
+<<<<<<< HEAD
+=======
+    <div className="text-center mt-2">
+          <Link
+            href="/blog"
+            className="py-2.5 px-5 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200"
+          >
+            Show more...
+          </Link>
+        </div>
+>>>>>>> origin/main
 </section>
     ); }; export default Blog;

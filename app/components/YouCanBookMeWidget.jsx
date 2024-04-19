@@ -26,10 +26,16 @@ const YouCanBookMeWidget = () => {
       src="https://scalifycommerce-call.youcanbook.me/?embed=true"
       id="ycbm"
       style={{
+<<<<<<< HEAD
         margin:'auto',
         marginTop:'10px',
         width: '70%',
         height: '900px',
+=======
+        marginTop:'10px',
+        width: '100%',
+        height: '100vh',
+>>>>>>> origin/main
         border: '0px',
         backgroundColor: 'transparent'
       }}
