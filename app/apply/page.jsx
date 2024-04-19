@@ -6,7 +6,7 @@ const page = () => {
         <div>
             <div className="mx-auto max-w-screen-sm text-center mt-8">
             <p className="text-xl text-yellow-400 font-bold mb-4 animate-bounce">
-            Book A Call
+            Book A Call 📞
           </p>
           <h2 className="text-4xl tracking-tight font-extrabold text-gray-900">
           Find a Time That Works For You
