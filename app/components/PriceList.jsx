@@ -15,9 +15,9 @@ const PriceList = () => {
     <div className="max-w-screen-sm mx-auto space-y-4">
     <div className="relative flex justify-center">
     <span className="px-4 py-0.5 border bg-yellow-100 border-gray-400 rounded-xl">Most Popular</span>
-    <span class="relative flex h-3 w-3">
-      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-      <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+    <span className="relative flex h-3 w-3">
+      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+      <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
     </span>
     </div>
     <div className="space-y-1">

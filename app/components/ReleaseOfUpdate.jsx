@@ -2,32 +2,32 @@
 const ReleaseOfUpdate = () => {
     return (
         <div className="max-w-screen-md mx-auto">
-  <div className="p-5 mb-4 border border-gray-100 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-    <time className="text-lg font-semibold text-gray-900 dark:text-white">
+  <div className="p-5 mb-4 border border-gray-100 rounded-lg bg-gray-50">
+    <time className="text-lg font-semibold text-gray-900">
       January 13th, 2022
     </time>
-    <ol className="mt-3 divide-y divider-gray-200 dark:divide-gray-700">
+    <ol className="mt-3 divide-y divider-gray-200">
       <li>
         <a
           href="#"
-          className="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700"
+          className="items-center block p-3 sm:flex hover:bg-gray-100"
         >
           <img
             className="w-12 h-12 mb-3 me-3 rounded-full sm:mb-0"
             src="/docs/images/people/profile-picture-1.jpg"
             alt="Jese Leos image"
           />
-          <div className="text-gray-600 dark:text-gray-400">
+          <div className="text-gray-600">
             <div className="text-base font-normal">
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 Jese Leos
               </span>
               likes
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 Bonnie Greens
               </span>
               post in
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 
                 How to start with Flowbite library
               </span>
@@ -35,7 +35,7 @@ const ReleaseOfUpdate = () => {
             <div className="text-sm font-normal">
               I wanted to share a webinar zeroheight.
             </div>
-            <span className="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+            <span className="inline-flex items-center text-xs font-normal text-gray-500">
               <svg
                 className="w-2.5 h-2.5 me-1"
                 aria-hidden="true"
@@ -53,7 +53,7 @@ const ReleaseOfUpdate = () => {
       <li>
         <a
           href="#"
-          className="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700"
+          className="items-center block p-3 sm:flex hover:bg-gray-100"
         >
           <img
             className="w-12 h-12 mb-3 me-3 rounded-full sm:mb-0"
@@ -61,17 +61,17 @@ const ReleaseOfUpdate = () => {
             alt="Bonnie Green image"
           />
           <div>
-            <div className="text-base font-normal text-gray-600 dark:text-gray-400">
-              <span className="font-medium text-gray-900 dark:text-white">
+            <div className="text-base font-normal text-gray-600">
+              <span className="font-medium text-gray-900">
                 Bonnie Green
               </span>
               react to
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 Thomas Lean
               </span>
               comment
             </div>
-            <span className="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+            <span className="inline-flex items-center text-xs font-normal text-gray-500">
               <svg
                 className="w-2.5 h-2.5 me-1"
                 aria-hidden="true"
@@ -90,32 +90,32 @@ const ReleaseOfUpdate = () => {
       </li>
     </ol>
   </div>
-  <div className="p-5 border border-gray-100 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-    <time className="text-lg font-semibold text-gray-900 dark:text-white">
+  <div className="p-5 border border-gray-100 rounded-lg bg-gray-50">
+    <time className="text-lg font-semibold text-gray-900">
       January 12th, 2022
     </time>
-    <ol className="mt-3 divide-y divider-gray-200 dark:divide-gray-700">
+    <ol className="mt-3 divide-y divider-gray-200">
       <li>
         <a
           href="#"
-          className="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700"
+          className="items-center block p-3 sm:flex hover:bg-gray-100"
         >
           <img
             className="w-12 h-12 mb-3 me-3 rounded-full sm:mb-0"
             src="/docs/images/people/profile-picture-4.jpg"
             alt="Laura Romeros image"
           />
-          <div className="text-gray-600 dark:text-gray-400">
+          <div className="text-gray-600">
             <div className="text-base font-normal">
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 Laura Romeros
               </span>
               likes
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 Bonnie Greens
               </span>
               post in
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 
                 How to start with Flowbite library
               </span>
@@ -123,7 +123,7 @@ const ReleaseOfUpdate = () => {
             <div className="text-sm font-normal">
               I wanted to share a webinar zeroheight.
             </div>
-            <span className="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+            <span className="inline-flex items-center text-xs font-normal text-gray-500">
               <svg
                 className="w-2.5 h-2.5 me-1"
                 aria-hidden="true"
@@ -143,7 +143,7 @@ const ReleaseOfUpdate = () => {
       <li>
         <a
           href="#"
-          className="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700"
+          className="items-center block p-3 sm:flex hover:bg-gray-100"
         >
           <img
             className="w-12 h-12 mb-3 me-3 rounded-full sm:mb-0"
@@ -151,17 +151,17 @@ const ReleaseOfUpdate = () => {
             alt="Mike Willi image"
           />
           <div>
-            <div className="text-base font-normal text-gray-600 dark:text-gray-400">
-              <span className="font-medium text-gray-900 dark:text-white">
+            <div className="text-base font-normal text-gray-600">
+              <span className="font-medium text-gray-900">
                 Mike Willi
               </span>
               react to
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 Thomas Leans
               </span>
               comment
             </div>
-            <span className="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+            <span className="inline-flex items-center text-xs font-normal text-gray-500">
               <svg
                 className="w-2.5 h-2.5 me-1"
                 aria-hidden="true"
@@ -179,24 +179,24 @@ const ReleaseOfUpdate = () => {
       <li>
         <a
           href="#"
-          className="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700"
+          className="items-center block p-3 sm:flex hover:bg-gray-100"
         >
           <img
             className="w-12 h-12 mb-3 me-3 rounded-full sm:mb-0"
             src="/docs/images/people/profile-picture-5.jpg"
             alt="Jese Leos image"
           />
-          <div className="text-gray-600 dark:text-gray-400">
+          <div className="text-gray-600">
             <div className="text-base font-normal">
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 Jese Leos
               </span>
               likes
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 Bonnie Greens
               </span>
               post in
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 
                 How to start with Flowbite library
               </span>
@@ -204,7 +204,7 @@ const ReleaseOfUpdate = () => {
             <div className="text-sm font-normal">
               I wanted to share a webinar zeroheight.
             </div>
-            <span className="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+            <span className="inline-flex items-center text-xs font-normal text-gray-500">
               <svg
                 className="w-2.5 h-2.5 me-1"
                 aria-hidden="true"
@@ -222,24 +222,24 @@ const ReleaseOfUpdate = () => {
       <li>
         <a
           href="#"
-          className="items-center block p-3 sm:flex hover:bg-gray-100 dark:hover:bg-gray-700"
+          className="items-center block p-3 sm:flex hover:bg-gray-100"
         >
           <img
             className="w-12 h-12 mb-3 me-3 rounded-full sm:mb-0"
             src="/docs/images/people/profile-picture-3.jpg"
             alt="Bonnie Green image"
           />
-          <div className="text-gray-600 dark:text-gray-400">
+          <div className="text-gray-600">
             <div className="text-base font-normal">
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 Bonnie Green
               </span>
               likes
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 Bonnie Greens
               </span>
               post in
-              <span className="font-medium text-gray-900 dark:text-white">
+              <span className="font-medium text-gray-900">
                 
                 Top figma designs
               </span>
@@ -247,7 +247,7 @@ const ReleaseOfUpdate = () => {
             <div className="text-sm font-normal">
               I wanted to share a webinar zeroheight.
             </div>
-            <span className="inline-flex items-center text-xs font-normal text-gray-500 dark:text-gray-400">
+            <span className="inline-flex items-center text-xs font-normal text-gray-500">
               <svg
                 className="w-2.5 h-2.5 me-1"
                 aria-hidden="true"

@@ -63,7 +63,7 @@ const Testimonial = () => { return (
       width={36}
       height={36}
       className="w-9 h-9 rounded-full"
-      alt="Travis M"
+      alt="jamil w"
     />
               <div className="space-y-0.5 font-medium">
                 <div>Josiah Tersieff</div>
@@ -90,7 +90,7 @@ const Testimonial = () => { return (
       width={36}
       height={36}
       className="w-9 h-9 rounded-full"
-      alt="Travis M"
+      alt="Jake Prusher"
     />
               <div className="space-y-0.5 font-medium text-left">
                 <div>Jake Prusher</div>
@@ -100,14 +100,6 @@ const Testimonial = () => { return (
               </div>
             </figcaption>
           </figure>
-        </div>
-        <div className="text-center mt-6">
-          <a
-            href="#"
-            className="py-2.5 px-5 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200"
-          >
-            Show more...
-          </a>
         </div>
       </div>
     </section>

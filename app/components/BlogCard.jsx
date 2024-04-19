@@ -67,7 +67,7 @@ console.log(formattedDate);
             <div className="p-5 text-left">
               <div className='flex justify-between mb-4'>
               <p>{formattedDate}</p>
-              <p>{blog.fields.readingTime} min</p>
+              <p>{blog.fields.readingTime} min read</p>
               </div>
               <p>{blog.fields.category}</p>
               <Link href={'/blog/'+ blog.fields.slug}>

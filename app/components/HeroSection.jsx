@@ -44,7 +44,7 @@ const HeroSection = async () =>
       >
         Start Dominating Now - Free
         <svg
-          class="animate-pulse w-4 h-4 ml-4"
+          className="animate-pulse w-4 h-4 ml-4"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"
         ><path
