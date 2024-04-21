@@ -11,3 +11,4 @@ services:
         - /app/.next
     ports:
       - "3000:3000"
+
